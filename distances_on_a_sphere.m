@@ -10,14 +10,14 @@ histogram(D,25,'Normalization','probability')
 xlabel('Distance')
 ylabel('Probability')
 title('Distance between two randomly selected points on a sphere in R^1')
-print('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/eqwidth_1','-dpng')
+print('eqwidth_1','-dpng')
 %% 
 P=prctile(D,[4:4:96])
 histogram(D,'BinEdges',P,'Normalization','probability')
 xlabel('Distance')
 ylabel('Probability')
 title('Distance between two randomly selected points on a sphere in R^1')
-print('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/eqpoints_1','-dpng')
+print('eqpoints_1','-dpng')
 
 %% for k=2
 X1=randn(1000,1)
@@ -32,14 +32,14 @@ histogram(D,25,'Normalization','probability')
 xlabel('Distance')
 ylabel('Probability')
 title('Distance between two randomly selected points on a sphere in R^2')
-print('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/eqwidth_2','-dpng')
+print('eqwidth_2','-dpng')
 %% 
 P=prctile(D,[4:4:96])
 histogram(D,'BinEdges',P,'Normalization','probability')
 xlabel('Distance')
 ylabel('Probability')
 title('Distance between two randomly selected points on a sphere in R^2')
-print('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/eqpoints_2','-dpng')
+print('eqpoints_2','-dpng')
 
 
 %% for k=3
@@ -56,12 +56,12 @@ histogram(D,25,'Normalization','probability')
 xlabel('Distance')
 ylabel('Probability')
 title('Distance between two randomly selected points on a sphere in R^3')
-print('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/eqwidth_3','-dpng')
+print('eqwidth_3','-dpng')
 %% 
 P=prctile(D,[4:4:96])
 histogram(D,'BinEdges',P,'Normalization','probability')
 xlabel('Distance')
 ylabel('Probability')
 title('Distance between two randomly selected points on a sphere in R^3')
-print('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/eqpoints_3','-dpng')
+print('eqpoints_3','-dpng')
 
