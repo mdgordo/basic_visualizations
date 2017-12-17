@@ -1,6 +1,6 @@
 %% read file into Matrix W, name columns
 
-W=csvread('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/wine.data.txt')
+W=csvread('wine.data.txt')
 
 %% normalize columns
 
@@ -26,10 +26,10 @@ figure
 polarplot(theta,rho1)
 thetaticklabels({'Alcohol', 'Malic acid', 'Ash', 'Alcalinity of ash', 'Magnesium', 'Total phenols', 'Flavanoids', 'Nonflavanoid phenols', 'Proanthocyanins', 'Color intensity', 'Hue', 'OD280 OD315', 'Proline'})
 title('Normalized Attributes of Wine 1','FontSize',20)
-print('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/wine1','-dpng')
+print('wine1','-dpng')
 
 figure
 polarplot(theta,rho2)
 thetaticklabels({'Alcohol', 'Malic acid', 'Ash', 'Alcalinity of ash', 'Magnesium', 'Total phenols', 'Flavanoids', 'Nonflavanoid phenols', 'Proanthocyanins', 'Color intensity', 'Hue', 'OD280 OD315', 'Proline'})
 title('Normalized Attributes of Wine 2','FontSize',20)
-print('/Users/mdgordo/Documents/Data Mining/gordonmg_assignment1/wine2','-dpng')
+print('wine2','-dpng')
